@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 var bodyparser = require('body-parser');
-const adminRouter = require('./src/router/adminRoute')
+const adminRoute = require('./src/router/adminRoute')
 const signupRouter = require('./src/router/signupRouter')
 const trainerRouter = require('./src/router/trainerRouter')
 
@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyparser.json());
 app.use(express.static('./dist/frontend'));
 
-app.use('/api/admin/',adminRouter);
+app.use('/api/admin/',adminRoute);
 app.use('/api/trainer/', trainerRouter);
 app.use('/api/user/', signupRouter);
 
