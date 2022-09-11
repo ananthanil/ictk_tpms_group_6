@@ -4,7 +4,7 @@
   "description": "ICT-kerala final project - Trainer Payment Management System (Group - 6)",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
