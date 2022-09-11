@@ -8,7 +8,6 @@ const trainerRouter = require('./src/router/trainerRouter')
 
 
 var app = new express();
-var PORT = 3666
 app.use(cors());
 app.use(bodyparser.json());
 
@@ -20,7 +19,7 @@ app.get('/*',function(req, res){
   res.sendFile(path.join(__dirname + './dist/frontend/index.html'));
 });
 
-var PORT = process.env.PORT || 3006
+var PORT = process.env.PORT || 3666
 app.listen(PORT,function(){
     console.log(`listening to port ${PORT}`);
   });
