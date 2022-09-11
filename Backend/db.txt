@@ -1,0 +1,2 @@
+password: y1zccZWP7n2VK0j5
+url : mongodb+srv://admin:<password>@cluster0.ajlsmrf.mongodb.net/?retryWrites=true&w=majority

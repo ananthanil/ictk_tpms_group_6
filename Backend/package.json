@@ -1,0 +1,26 @@
+{
+  "name": "trainer_payment_management",
+  "version": "1.0.0",
+  "description": "ICT-kerala final project - Trainer Payment Management System (Group - 6)",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "payment",
+    "tainer",
+    "admin"
+  ],
+  "author": "Ananth Krishnan A, Athul c k, Maya P, Nadira PT, Nesla MS",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
