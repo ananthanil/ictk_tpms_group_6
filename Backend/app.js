@@ -10,6 +10,7 @@ const trainerRouter = require('./src/router/trainerRouter')
 var app = new express();
 app.use(cors());
 app.use(bodyparser.json());
+app.use(express.static('./dist/frontend'));
 
 app.use('/api/admin/',adminRouter);
 app.use('/api/trainer/', trainerRouter);
