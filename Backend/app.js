@@ -17,7 +17,7 @@ app.use('/api/trainer/', trainerRouter);
 app.use('/api/user/', signupRouter);
 
 app.get('/*',function(req, res){
-  res.sendFile(path.join(__dirname + './dist/frontend/index.html'));
+  res.sendFile(path.join(__dirname, './dist/frontend/index.html'));
 });
 
 var PORT = process.env.PORT || 3666
