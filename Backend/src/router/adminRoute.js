@@ -5,7 +5,7 @@ const activity_Type=require('../model/activityType');
 const trMode = require('../model/trainer_mode');
 const PackageDetails = require('../model/package_type');
 const signup = require('../model/signup');
-const tsheet=require('../model/timesheet');
+const tsheet=require('../model/timeSheet');
 const adminRouter = express.Router();
 
 // ------------ Insertion operations start ------------------
